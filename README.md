@@ -1,82 +1,38 @@
-An end-to-end data analysis project exploring credit card spending behavior across India using MySQL.
-This project covers data cleaning, exploration, SQL queries, patterns, insights, and presentation-ready results.
+#Overview:
+This project analyzes credit card customer transactions using MySQL to understand spending behavior, revenue patterns, and potential credit risks.
+The goal is to provide data-driven insights that can help banks and financial companies improve customer targeting, marketing strategies, and credit-limit decisions.
 
-🔍 Project Overview
+#Dataset Description:
+columns=6 & Rows=26000+ 
 
-This analysis uncovers:
+#Column	Description
+Index--	Index number of the record
+City--	City where the transaction occurred (e.g., Delhi, Bengaluru, Mumbai)
+Date--	Date of the transaction
+Card Type--	Type of credit card (Gold, Platinum, Silver, Signature etc.)
+Exp Type--	Category of spending (Bills, Shopping, Travel, Entertainment etc.)
+Gender--	Gender of the cardholder
+Amount--	Total amount spent in the transaction
 
-City-wise spending patterns
+#Tools & Technologies
+Tool--	Purpose
+MySQL--	Data storage and analysis
+CSV	Dataset-- input
+Presentation--AI
 
-Month-wise and year-wise trends
+#Objectives
+1.Identify top spending categories & customer segments
+2.Analyze monthly & weekly spending patterns
+3.Find high-value customers contributing most revenue
+4.Compare spending by gender
+5.Detect customers near credit limit — risk analysis
+6.Track transaction frequency and repayment behavior
 
-Card-type usage (Gold, Platinum, Silver, etc.)
-
-Gender-based spending trends
-
-Festival-driven transaction spikes
-
-Top contributing cities and segments
-
-The goal is to understand how, when, and where people in India use their credit cards the most.
-
-🛠️ Tools & Technologies
-
-MySQL (SQL queries, aggregation, window functions)
-
-Excel (initial review & verification)
-
-Power BI (optional for visualization, if you plan to include)
-
-📁 Dataset
-
-The dataset contains:
-
-Transaction Date
-
-City
-
-Card Type
-
-Gender
-
-Expense Category
-
-Transaction Amount
-🧹 Data Cleaning
-
-Performed basic cleaning:
-
-Removed duplicates
-
-Handled missing values
-
-Standardized date formats
-
-Normalized city and card-type categories
-
-🧮 Key SQL Concepts Used
-
-GROUP BY
-
-ORDER BY
-
-COUNT() and SUM()
-
-ROW_NUMBER()
-
-PARTITION BY
-
-Subqueries
+#Major Analysis on This Dataset
+1.Females account for 52.5% of all transactions, while males account for 47.5%
+2.Silver card has the highest usage volume Credit card and Platinum card users spend the most on average per transaction
+3.High-value payments mainly occur in Tier-1 cities: Bengaluru, Greater Mumbai, Ahmedabad, Delhi 
+4.Most common purpose of credit card use = Food
 
 
-🔥 Major Insights
 
-Top cities with highest credit card usage
-
-Peak spending months (and reasons—festivals, salary cycle, year-end spending, etc.)
-
-Card types preferred by top cities
-
-Spending behavior difference between male vs female customers
-
-Categories with highest transactions (shopping, travel, fuel, etc.)
