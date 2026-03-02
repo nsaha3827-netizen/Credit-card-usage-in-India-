@@ -1,4 +1,4 @@
-#Overview:
+#**Overview**:
 This project analyzes credit card customer transactions using MySQL to understand spending behavior, revenue patterns, and potential credit risks.
 The goal is to provide data-driven insights that can help banks and financial companies improve customer targeting, marketing strategies, and credit-limit decisions.
 
